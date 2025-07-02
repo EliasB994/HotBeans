@@ -1,44 +1,22 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Hot Beans Web – About Us</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hot Beans Web • Careers</title>
+  <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" />
 </head>
 <body>
-  <nav>
-    <div class="container">
-      <a href="index.html"><strong>Hot Beans Web</strong></a>
-      <div>
-        <a href="index.html">Home</a>
-        <a href="trainees.html">Trainees</a>
-        <a href="jobs.html">Jobs</a>
-        <a href="apply.html">Apply</a>
-        <a href="courses.html">Courses</a>
-      </div>
-    </div>
-  </nav>
-<div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;"><div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=great+ducie+st&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="the-googlemap-enabler" href="https://kbj9qpmy.com/bp" id="get-map-data">Internet Provider</a><style>#embed-ded-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
-  <section class="section container">
-    <h1>Welcome to Hot Beans Web</h1>
-    <p>Building cutting-edge web experiences. Join our passionate team!</p>
-    <img src="images/team.jpg" alt="Our Team Working" class="responsive">
-    <a href="jobs.html" class="button">View Open Roles</a>
-  </section>
+  <!-- dimmed tech‑focused background -->
+  <div class="bg-overlay">
+    <img src="images/tech-bg.jpg" alt="Tech background" class="bg-image" />
+  </div>
 
-  <footer>
-    <div class="container">
-      <div>
-        <p>&copy; 2025 Hot Beans Web</p>
-      </div>
-      <div>
-        <a href="#">Privacy Policy</a> |
-        <a href="#">Terms of Service</a> |
-        <a href="#">Contact Us</a>
-      </div>
-    </div>
-  </footer>
+  <!-- React mounts here -->
+  <div id="root"></div>
+
+  <!-- React and app bundle -->
+  <script src="%PUBLIC_URL%/bundle.js"></script>
 </body>
 </html>
